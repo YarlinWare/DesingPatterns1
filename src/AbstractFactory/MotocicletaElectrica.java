@@ -10,5 +10,10 @@ package AbstractFactory;
  * @author ASUS
  */
 public class MotocicletaElectrica extends Motocicleta{
+
+    @Override
+    public void moverse() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

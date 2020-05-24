@@ -9,6 +9,7 @@ package AbstractFactory;
  *
  * @author ASUS
  */
-public class Motocicleta {
+public abstract class Motocicleta {
     
+    public abstract void moverse();
 }
